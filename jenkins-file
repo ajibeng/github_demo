@@ -12,6 +12,11 @@ pipeline {
                 echo 'Hello World'
             }
         }
+        stage('hook test') {
+                    steps {
+                        echo 'testing hook'
+                    }
+                }
         stage('Hallo') {
             steps {
                 echo 'Hello World'
